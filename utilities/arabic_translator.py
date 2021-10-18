@@ -7,13 +7,13 @@ app_width = 500
 app_height = 400
 root.geometry(f'{app_width}x{app_height}+{250}+{250}')
 
-my_l = Label(root, text="Enter Trade Name in English: ", bg="gray")
+my_l = Label(root, text="Enter Name in English: ", bg="gray")
 my_l.pack(pady=10)
 
 e = Entry(root, width=35, borderwidth=5)
 e.pack(pady=10)
 
-myButton = Button(root, text="Enter Trade Name in English: ", command=e.get())
+myButton = Button(root, text="Enter Name in English: ", command=e.get())
 
 
 def myDelete():
