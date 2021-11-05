@@ -18,4 +18,5 @@ print(Point.default_color)
 point.draw()
 
 another = Point(3, 4)
+print(another.default_color)
 another.draw()
