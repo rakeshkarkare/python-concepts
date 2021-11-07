@@ -1,16 +1,15 @@
-class Employee:
-    def greet(self):
-        print("Employee Greet")
+class Flyer:
+    def fly(self):
+        pass
 
 
-class Person:
-    def greet(self):
-        print("Person Greet")
+class Swimmer:
+    def swim(self):
+        pass
 
 
-class Manager(Employee, Person):
+class FlyingFish(Flyer, Swimmer):
     pass
 
 
-manager = Manager()
-manager.greet()
+flyingFish = FlyingFish()
