@@ -1,5 +1,5 @@
-from ecommerce.sales import calc_shipping, calc_tax
-from ecommerce import sales
+from ecommerce.shopping.sales import calc_shipping, calc_tax
+from ecommerce.shopping import sales
 
 sales.calc_shipping()
 
