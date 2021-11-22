@@ -1,3 +1,5 @@
+# Highest number of occurence of character
+
 from pprint import pprint
 sentence = "This is a common interview quuestion"
 
